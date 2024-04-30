@@ -1,0 +1,78 @@
+body {
+    font-family: 'Courier New', monospace;
+    background-color: #1b1b1b;
+    color: #c6c6c6;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    border-bottom: 3px solid #f00;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header {
+    background-color: #444;
+    padding: 30px 0;
+    text-align: center;
+    font-size: 28px;
+    border-bottom: 5px dashed #f00;
+}
+
+#about, #experience, #contact {
+    padding: 20px;
+    background-color: #2e2e2e;
+    margin: 20px auto;
+    max-width: 80%;
+    box-shadow: 0 0 10px 3px #f00;
+}
+
+.experience-item h3 {
+    color: #ff4500;
+}
+
+.experience-item {
+    margin-bottom: 10px;
+    padding-left: 20px;
+    border-left: 5px solid #ff4500;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: #fff;
+    border-top: 3px solid #f00;
+}
+
+#contact form input, #contact form textarea, #contact form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#contact form button {
+    background-color: #ff4500;
+    color: #1b1b1b;
+    font-weight: bold;
+    cursor: pointer;
+}
